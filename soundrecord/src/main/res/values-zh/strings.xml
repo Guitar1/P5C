@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SoundRecord</string>
+    <string name="record_time">00:00:00</string>
+    <string name="action_settings">Settings</string>
+	<string name="are_you_sure_cancel_the_record">是否放弃本次录音?</string>
+	<string name="cancel">取消</string>
+	<string name="desret">舍弃</string>
+	<string name="no_sdcard">没有外部存储器，无法进行录音！</string>
+	<string name="no_left_memory">存储不足，无法进行录音！</string>
+</resources>

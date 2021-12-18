@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SoundRecord</string>
+    <string name="record_time">00:00:00</string>
+    <string name="action_settings">Settings</string>
+    <string name="are_you_sure_cancel_the_record">Whether to give up this recording?</string>
+    <string name="cancel">cancel</string>
+    <string name="desret">abort</string>
+    <string name="no_sdcard">No external memory, no recording!</string>
+    <string name="no_left_memory">Insufficient storage, no recording!</string>
+</resources>

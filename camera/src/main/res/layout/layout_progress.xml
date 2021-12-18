@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:id="@+id/big_upload">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="120dp"
+        android:background="@color/lightgray" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightgray">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/lightgray" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/filename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="空"
+                    android:textSize="20dp" />
+                <Button
+                    android:id="@+id/btn_min"
+                    android:layout_gravity=""
+                    style="@style/FTPBigWindowBtn"
+                    android:background="@drawable/ftp_down_big_window_min" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/bt_upload_back"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="@string/conti"
+                    android:textSize="15dp" />
+                <Button
+                    android:id="@+id/bt_abort"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="@string/disconnect"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/schedue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="@style/progress_style"
+                    android:layout_width="250dp"
+                    android:max="100"
+                    android:progress="0"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/lightgray" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="120dp"
+            android:background="@color/lightgray" />
+    </LinearLayout>
+
+</LinearLayout>

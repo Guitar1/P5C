@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+<RelativeLayout
+    android:background="@drawable/confirm_dialog_bg"
+    android:layout_width="280dp"
+    android:layout_height="120dp">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:text="@string/cancel"
+                android:gravity="center"
+                style="@style/DialogBtn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/btn_ok"
+                android:text="@string/ok"
+                android:gravity="center"
+                style="@style/DialogBtn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

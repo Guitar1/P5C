@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomDialogPreference" >
+        <attr name="entries" format="reference"/>
+        <attr name="entryValues" format="reference" />
+        <attr name="defaultValue" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PagePointLayout">
+        <attr name="point_count" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="GestureLayout">
+        <attr name="sound_type" format="integer"/>
+    </declare-styleable>
+</resources>

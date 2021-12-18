@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="@drawable/custom_progress_bg"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="21sp"
+    android:singleLine="false"
+    android:textColor="@color/white"
+    android:text="是否确认开启通话？"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="40dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_talk_ok"
+            android:text="@string/confirm"
+            style="@style/BtnReport" />
+        <Button
+            android:id="@+id/btn_talk_ignore"
+            android:text="@string/ignore"
+            style="@style/BtnReport" />
+    </LinearLayout>
+</LinearLayout>

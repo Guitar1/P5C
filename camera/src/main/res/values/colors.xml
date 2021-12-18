@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#00ff00</color>
+    <color name="white">#ffffff</color>
+    <color name="ftp_down_title_bg">#09236E</color>
+    <color name="lightgray">#b46c6a6a</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="BtnCameraParamsSet" parent="AllWrap">
+        <item name="android:layout_marginLeft">@dimen/btn_camera_params_set_margin_ver</item>
+        <item name="android:layout_marginRight">@dimen/btn_camera_params_set_margin_ver</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+</resources>

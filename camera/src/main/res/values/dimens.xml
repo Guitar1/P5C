@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_camera_params_set_margin_ver">5dp</dimen>
+    <dimen name="padding_hor_pop_window">5dp</dimen>
+    <dimen name="margin_right_pop_item">2dp</dimen>
+    <dimen name="width_setting_camera_dialog">200dp</dimen>
+    <dimen name="textSize_content">25sp</dimen>
+    <dimen name="warn_other_btn_width_height">76dp</dimen>
+    <dimen name="warn_other_btn_margin">10dp</dimen>
+</resources>

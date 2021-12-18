@@ -1,0 +1,2 @@
+com.example.location
+string app_name

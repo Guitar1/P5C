@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/record_function_btn"
+     android:layout_alignParentBottom="true"
+     android:layout_width="fill_parent"
+     android:background="@drawable/button_bg"
+      android:layout_height="wrap_content">
+    
+     <ImageView 
+            android:id="@+id/pause_record_btn"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+        	android:layout_centerHorizontal="true"
+		 	android:visibility="gone"
+        	android:src="@drawable/pause"/>
+     <ImageView 
+            android:id="@+id/stop_record_btn"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginLeft="@dimen/stop_record_marginLeft"
+            android:src="@drawable/stop"/>
+     <ImageView 
+            android:id="@+id/cancel_record_btn"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginRight="@dimen/cancel_record_marginRight"
+            android:src="@drawable/cannel"/>
+     
+
+</RelativeLayout>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:layout_marginBottom="44dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="22dp"
+    android:layout_marginLeft="22dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/ftp_down_title_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_file_down"
+            android:layout_centerInParent="true"
+            android:text="@string/down_file"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rate"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/tv_file_down"
+            android:layout_marginEnd="5dp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_close"
+            style="@style/FTPBigWindowBtn"
+            android:background="@drawable/ftp_down_big_window_close"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_min"
+            style="@style/FTPBigWindowBtn"
+            android:background="@drawable/ftp_down_big_window_min" />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:id="@+id/iv_ftp_login"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/tv_file_down"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/login_failed"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_ftp_down"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"/>
+
+
+</LinearLayout>

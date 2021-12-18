@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tab_phone"
+            android:text="@string/tab_phone"
+            style="@style/TabButtonTheme" />
+        <View
+            android:background="@android:color/darker_gray"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:text="@string/tab_call_history"
+            android:id="@+id/tab_call_history"
+            style="@style/TabButtonTheme" />
+        <View
+            android:background="@android:color/darker_gray"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:text="@string/tab_sms"
+            android:id="@+id/tab_sms"
+            style="@style/TabButtonTheme" />
+        <View
+            android:background="@android:color/darker_gray"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:text="@string/tab_contact"
+            style="@style/TabButtonTheme"
+            android:id="@+id/tab_contact"
+             />
+        </LinearLayout>-->
+    <GridView
+        android:id="@+id/grid_view"
+        android:numColumns="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </GridView>
+
+    <ImageView
+        android:id="@+id/iv_scroll"
+        android:background="@drawable/table_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

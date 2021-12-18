@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Звукозапись</string>
+    <string name="record_time">00:00:00</string>
+    <string name="action_settings">настройка</string>
+    <string name="are_you_sure_cancel_the_record">отказаться_от_этой_записи?</string>
+    <string name="cancel">Отмена</string>
+    <string name="desret">прервать</string>
+    <string name="no_sdcard">Нет_внешней_памяти,_запись_невозможна!</string>
+    <string name="no_left_memory">Недостаточно_памяти,_запись_не_идет!</string>
+</resources>

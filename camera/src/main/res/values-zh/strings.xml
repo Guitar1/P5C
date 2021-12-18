@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">执法仪</string>
+    <string name="setting">设置</string>
+    <string name="file_manager">文件回放</string>
+    <string name="application">应用软件</string>
+    <string name="dial">拨号</string>
+    <string name="record">影像记录</string>
+    <string name="public_network_talkback">智能调度</string>
+    <string name="action_settings">Settings</string>
+    <string name="storage_not_exist">SD卡未挂载,禁止相关操作!</string>
+    <string name="storages_not_enough">SD卡空间不足,是否手动上传？</string>
+    <string name="storage_not_enough">SD卡空间不足,禁止相关操作!</string>
+    <string name="only_one_camera">未检测到子摄像头</string>
+    <string name="mode_single">单拍</string>
+    <string name="mode_quick_series">高速连拍</string>
+    <string name="mode_interval">间隔连拍</string>
+    <string name="mode_timer">定时拍照</string>
+    <string name="record_auto">开机录像</string>
+    <string name="close">关闭</string>
+    <string name="open">打开</string>
+    <string name="five_min">5分钟</string>
+    <string name="ten_min">10分钟</string>
+    <string name="fifteenmin">15分钟</string>
+    <string name="fifteen_min">30分钟</string>
+    <string name="two_hours">2小时</string>
+    <string name="two_sec">2秒</string>
+    <string name="three_sec">3秒</string>
+    <string name="five_sec">5秒</string>
+    <string name="ten_sec">10秒</string>
+    <string name="twenty_sec">20秒</string>
+    <string name="thirty_sec">30秒</string>
+    <string name="fifteen_sec">15秒</string>
+    <string name="record_pre">预&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="record_delay">延&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <string name="five_pics">5张</string>
+    <string name="ten_pics">10张</string>
+    <string name="twenty_pics">20张</string>
+    <string name="takeing_photo">拍照</string>
+    <string name="updating">正在更新数据,请勿关机…</string>
+    <string name="config_start">配置中,请稍候…</string>
+    <string name="config_error">配置文件格式错误,请校对.</string>
+    <string name="fenyang">汾阳执法</string>
+    <string name="vos">vos移动视频</string>
+    <string name="start_record">开始录像</string>
+    <string name="record_power_on">开机录像</string>
+    <string name="cancel">取消</string>
+    <string name="record_sound">录像声音</string>
+    <string name="record_section">分段录像</string>
+    <string name="record_loop">循环录像</string>
+    <string name="login">登录</string>
+    <string name="input_police_num">请输入警务号</string>
+    <string name="input_device_num">请输入设备号</string>
+    <string name="network_not_connected">当前网络未连接</string>
+    <string name="sim_not_work">Sim卡不存在</string>
+    <string name="registering">正在注册设备,请稍后…</string>
+    <string name="register_failed">注册失败,请检查后重试…</string>
+    <string name="positive">确定</string>
+    <string name="register_success">注册成功</string>
+    <string name="open_value">1</string>
+    <string name="close_value">0</string>
+    <string name="video_assist">视频协助</string>
+    <string name="video_record">影音采集</string>
+    <string name="sound_record">音频采集</string>
+    <string name="talk_back">对讲机</string>
+    <string name="map">地图</string>
+    <string name="call">电话</string>
+    <string name="skip">跳过</string>
+    <string name="title_take_picture_setting">拍照设置</string>
+    <string name="sound_take_picture">拍照声音</string>
+    <string name="ratio_picture">图像分辨率</string>
+    <string name="setting_reset">重置</string>
+    <string name="title_record_setting">录像设置</string>
+    <string name="camera_setting">相机设置</string>
+    <string name="record_ratio">影像分辨率</string>
+    <string name="device_num">设备号</string>
+
+
+
+
+
+    <string name="test"><xliff:g id="music_name">%s</xliff:g></string>
+    <string name="not_support_disable_shutter_sound">当前设备不允许关闭快门声</string>
+    <string name="one_min">1分钟</string>
+    <string name="mode_take_picture">拍照模式</string>
+
+
+
+
+
+
+
+    <string name="police_num">警务号</string>
+    <string name="wrong_device_number">设备号输入有误,必须为5位数字.</string>
+    <string name="info_reset">警号重置</string>
+    <string name="service_control">后台监控</string>
+    <string name="service_not_set">后台服务IP未设置!请到设置-系统-平台设置内设置.</string>
+    <string name="password">密码</string>
+    <string name="btn_forget"><u>忘记密码?</u></string>
+    <string name="null_password">密码不能为空</string>
+    <string name="wrong_password">密码有误!请重新输入.</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_admin_password">请输入管理员密码</string>
+    <string name="input_username">请输入用户名或编号</string>
+    <string name="new_password">新密码</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="original_password">原密码</string>
+    <string name="null_new_password">新密码不能为空!请重新输入.</string>
+    <string name="wrong_police_number">警号有误,必须为6位数字.</string>
+    <string name="wechat">微信</string>
+    <string name="video_cut_finish">截视频完成.</string>
+    <string name="video_cut_start">开始截视频.</string>
+    <string name="click_one_more_time">3秒内再按一次返回键则退出.</string>
+    <string name="sos_msg">警号为<xliff:g id="number">%s</xliff:g>发来SOS!</string>
+    <string name="confirm">确定</string>
+    <string name="ignore">忽略</string>
+    <string name="no_class_find">当前应用没有安装</string>
+    <string name="set_date_invalid">您设置的时间不合法，请重新设置！</string>
+    <string name="set_date_success">时间设置成功</string>
+    <string name="contact">联系人</string>
+    <string name="file_playback">文件回放</string>
+    <string name="choose_power_save">即将进入省电模式，如有其他操作请取消。</string>
+    <string name="application_not_install">未安装以应用</string>
+    <string name="not_support_flash_mode_off">当前设备不支持关闭闪光灯</string>
+    <string name="not_support_flash_mode_on">当前设备不支持打开闪光灯</string>
+    <string name="stop_record">停止</string>
+    <string name="start_work">上班</string>
+    <string name="off_duty">下班</string>
+    <string name="fire">火情</string>
+    <string name="forest">林木</string> <string name="insect_attack">虫害</string>
+    <string name="other">其他</string>
+    <string name="rail_way">武安行</string>
+    <string name="config_finished">配置完成</string>
+    <string name="search">警情查询</string>
+    <string name="police_event">警力警情</string>
+    <string name="communication">安全通讯</string>
+    <string name="calculator">计算器</string>
+    <string name="check">移动核查</string>
+    <string name="clock">时钟</string>
+    <string name="uninstall_apk_sure">卸载该应用?</string>
+    <string name="open_uvc">外置摄像头已开启，主摄像头功能已屏蔽</string>
+    <string name="disable_fuction">此功能尚未开放使用</string>
+    <string name="shutdown">正在关机</string>
+    <string name="remeber_psw">记住密码</string>
+    <string name="ok">确定</string>
+    <string name="isgetlocation">定位成功</string>
+    <string name="id_card">身份证</string>
+    <string name="low_battary_15">电量过低，请及时充电！</string>
+    <string name="low_battary_5">电量已到达预警值，请勿过度放电！</string>
+    <string name="upload_cancel">upload cancel.</string>
+    <string name="ftp_down_file_name">文件名</string>
+    <string name="ftp_reload">重新下载</string>
+    <string name="ftp_down_check">查看</string>
+    <string name="ftp_down_wait">等待</string>
+    <string name="down_file">文件下发</string>
+    <string name="tiewutong">铁务通</string>
+    <string name="power_saving_mode">超级省电模式，禁止相关操作！</string>
+    <string name="camera_occupy">摄像头被占用，等释放摄像头后再使用！</string>
+
+    <string name="translation">智能翻译</string>
+</resources>

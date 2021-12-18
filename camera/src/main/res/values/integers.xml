@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="preview_width_low">320</integer>
+    <integer name="preview_height_low">240</integer>
+    <integer name="preview_width_high">640</integer>
+    <integer name="preview_height_high">480</integer>
+</resources>

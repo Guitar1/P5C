@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_record_setting" type="id"/>
+    <item name="btn_record_ratio" type="id"/>
+    <item name="btn_record_auto" type="id"/>
+    <item name="btn_flash_light" type="id"/>
+    <item name="btn_pic_ratio" type="id"/>
+    <item name="btn_pic_mode" type="id"/>
+    <item name="btn_pic_shutter" type="id"/>
+    <item name="btn_capture_mode_interval_timer" type="id"/>
+</resources>

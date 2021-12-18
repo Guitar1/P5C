@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PhoneTheme" parent="android:TextAppearance.Holo.Large.Inverse">
+        <item name="android:textSize">@dimen/phone_theme_txt_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="PhoneTheme.Button">
+        <item name="android:paddingTop">@dimen/phone_theme_btn_padding</item>
+        <item name="android:paddingBottom">@dimen/phone_theme_btn_padding</item>
+    </style>
+
+    <style name="TabButtonTheme">
+        <item name="android:background">@drawable/bg_table</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tab_btn_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

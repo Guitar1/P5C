@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PopupWindow图片字符串数组-->
+    <string-array name="array_ratio_capture_txt">
+        <item>2560x1440</item>
+        <item>3264x2448</item>
+        <item>3968x2976</item>
+        <item>4736x3552</item>
+        <item>6528x4896</item>
+    </string-array>
+    <array name="array_ratio_capture_icon">
+        <item>@drawable/ratio_capture_2560_1920</item>
+        <item>@drawable/ratio_capture_3264x2448</item>
+        <item>@drawable/ratio_capture_3968x2976</item>
+        <item>@drawable/ratio_capture_4736x3552</item>
+        <item>@drawable/ratio_capture_6528x4896</item>
+    </array>
+    <!--拍照模式主菜单-->
+    <string-array name="array_mode_txt">
+        <item>@string/mode_single</item>
+        <item>@string/mode_quick_series</item>
+        <item>@string/mode_interval</item>
+        <item>@string/mode_timer</item>
+    </string-array>
+    <array name="array_mode_default_icon">
+        <item>@drawable/mode_single</item>
+        <item>@drawable/quick_mode_5_pics</item>
+        <item>@drawable/interval_2_sec</item>
+        <item>@drawable/timer_five_sec</item>
+    </array>
+
+    <!--高速连拍设置-->
+    <string-array name="array_quick_series_mode">
+        <item>@string/five_pics</item>
+        <item>@string/ten_pics</item>
+        <item>@string/twenty_pics</item>
+    </string-array>
+    <array name="array_quick_series_mode_icon">
+        <item>@drawable/quick_mode_5_pics</item>
+        <item>@drawable/quick_mode_10_pics</item>
+        <item>@drawable/quick_mode_20_pics</item>
+    </array>
+    <string-array name="array_quick_series_mode_value">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+
+    <!--间隔连拍设置-->
+    <string-array name="array_interval_mode">
+        <item>@string/two_sec</item>
+        <item>@string/three_sec</item>
+        <item>@string/five_sec</item>
+        <item>@string/ten_sec</item>
+        <item>@string/twenty_sec</item>
+        <item>@string/thirty_sec</item>
+    </string-array>
+    <array name="array_interval_mode_icon">
+        <item>@drawable/interval_2_sec</item>
+        <item>@drawable/interval_3_sec</item>
+        <item>@drawable/interval_5_sec</item>
+        <item>@drawable/interval_10_sec</item>
+        <item>@drawable/interval_20_sec</item>
+        <item>@drawable/interval_30_sec</item>
+    </array>
+    <string-array name="array_interval_mode_value">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <!--定时拍照设置-->
+    <string-array name="array_timer_mode">
+        <item>@string/five_sec</item>
+        <item>@string/ten_sec</item>
+        <item>@string/fifteen_sec</item>
+        <item>@string/thirty_sec</item>
+    </string-array>
+    <array name="array_timer_mode_icon">
+        <item>@drawable/timer_five_sec</item>
+        <item>@drawable/timer_ten_sec</item>
+        <item>@drawable/timer_fifteen_sec</item>
+        <item>@drawable/timer_thirty_sec</item>
+    </array>
+    <string-array name="array_timer_mode_value">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+
+    <!--录像分辨率显示-->
+    <string-array name="array_ratio_record">
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>864x480</item>
+    </string-array>
+    <array name="array_ratio_record_icon">
+        <item>@drawable/ratio_record_1920_1080</item>
+        <item>@drawable/ratio_record_1280_720</item>
+        <item>@drawable/ratio_record_640_480</item>
+    </array>
+    <string-array name="array_ratio_record_hnyc">
+        <item>2560x1080</item>
+        <item>1920x1080</item>
+        <item>1920x720</item>
+    </string-array>
+    <array name="array_ratio_record_icon_hnyc">
+        <item>@drawable/ratio_record_2560_1080</item>
+        <item>@drawable/ratio_record_1920_1080</item>
+        <item>@drawable/ratio_record_1920_720</item>
+    </array>
+    <!--录像分辨率显示-->
+    <string-array name="array_ratio_record_wifi">
+        <item>1280x720</item>
+    </string-array>
+    <array name="array_ratio_record_icon_wifi">
+        <item>@drawable/ratio_record_1280_720</item>
+    </array>
+
+
+    <!--录像时长设置  送检版本只有5分钟-->
+    <string-array name="record_section_setting">
+        <item>@string/five_min</item>
+        <item>@string/ten_min</item>
+        <item>@string/fifteen_min</item>
+    </string-array>
+    <string-array name="record_section_setting_value">
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+    </string-array>
+    <!--录像时长设置  送检版本只有5分钟-->
+    <string-array name="record_section_setting_gjdw">
+        <item>@string/five_min</item>
+        <item>@string/ten_min</item>
+        <item>@string/fifteen_min</item>
+        <item>@string/two_hours</item>
+    </string-array>
+    <string-array name="record_section_setting_value_gjdw">
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>120</item>
+    </string-array>
+
+    <!--录像预录及延录设置-->
+    <string-array name="record_pre_delay_setting">
+        <item>@string/three_sec</item>
+        <item>@string/five_sec</item>
+        <item>@string/ten_sec</item>
+        <item>@string/twenty_sec</item>
+        <item>@string/thirty_sec</item>
+        <item>@string/close</item>
+    </string-array>
+    <string-array name="record_pre_delay_setting_value">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+
+
+
+    <!--录像 关闭打开功能设置-->
+    <string-array name="record_setting_open_close">
+        <item>@string/open</item>
+        <item>@string/close</item>
+    </string-array>
+
+    <string-array name="record_setting_open_close_value">
+        <item>@string/open_value</item>
+        <item>@string/close_value</item>
+    </string-array>
+
+
+    <!-- 扫描二维码UI -->
+    <string-array name="barcode_launcher_item_txt_1">
+        <item>@string/video_record</item>
+        <item>@string/sound_record</item>
+        <item>@string/talk_back</item>
+        <item>@string/file_manager</item>
+        <item>@string/setting</item>
+
+    </string-array>
+    <array name="barcode_launcher_item_icon_1">
+        <item>@drawable/video_record</item>
+        <item>@drawable/sound_record</item>
+        <item>@drawable/talking</item>
+        <item>@drawable/file_manager</item>
+        <item>@drawable/setting</item>
+    </array>
+
+    <!-- 无3G UI. -->
+    <string-array name="no_3g_launcher_item_txt_1">
+        <item>@string/video_record</item>
+        <item>@string/sound_record</item>
+        <item>@string/file_manager</item>
+        <item>@string/setting</item>
+    </string-array>
+    <array name="no_3g_launcher_item_icon_1">
+        <item>@drawable/video_record</item>
+        <item>@drawable/sound_record</item>
+        <item>@drawable/file_manager</item>
+        <item>@drawable/setting</item>
+    </array>
+    <array name="launcher_main">
+        <item>@string/video_assist</item>
+        <item>@string/video_record</item>
+        <item>@string/sound_record</item>
+        <item>@string/application</item>
+        <item>@string/file_manager</item>
+        <item>@string/setting</item>
+        <item>@string/tiewutong</item>
+        <item>@string/wechat</item>
+        <item>@string/map</item>
+        <item>@string/talk_back</item>
+    </array>
+
+    <array name="launcher_p5c">
+        <item>@string/video_record</item>
+        <item>@string/sound_record</item>
+        <item>@string/application</item>
+        <item>@string/file_manager</item>
+        <item>@string/setting</item>
+    </array>
+    <array name="launcher_p5c_eng">
+        <item>@string/video_record</item>
+        <item>@string/sound_record</item>
+        <item>@string/file_manager</item>
+        <item>@string/setting</item>
+    </array>
+    <array name="launcher_p5c_spxz">
+        <item>@string/video_assist</item>
+        <item>@string/video_record</item>
+        <item>@string/sound_record</item>
+        <item>@string/application</item>
+        <item>@string/file_manager</item>
+        <item>@string/setting</item>
+    </array>
+    <string-array name="jnkyd_array_custom_ratio_record">
+        <item>640x480</item>
+    </string-array>
+    <array name="jnkyd_array_custom_ratio_record_icon">
+        <item>@drawable/ratio_record_640_480</item>
+    </array>
+    <!--日照消防支队录像分辨率显示-->
+    <string-array name="rzxfzd_array_ratio_record">
+        <item>2304x1296</item>
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>864x480</item>
+    </string-array>
+    <array name="rzxfzd_array_ratio_record_icon">
+        <item>@drawable/ratio_record_2304_1296</item>
+        <item>@drawable/ratio_record_1920_1080</item>
+        <item>@drawable/ratio_record_1280_720</item>
+        <item>@drawable/ratio_record_640_480</item>
+    </array>
+
+    <string-array name="test_array_ratio_record">
+        <item>2880x1800</item>
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>864x480</item>
+    </string-array>
+    <array name="test_array_ratio_record_icon">
+        <item>@drawable/ratio_record_2880_1800</item>
+        <item>@drawable/ratio_record_1920_1080</item>
+        <item>@drawable/ratio_record_1280_720</item>
+        <item>@drawable/ratio_record_640_480</item>
+    </array>
+    <string-array name="test_array_ratio_capture_txt">
+        <item>2560x1440</item>
+        <item>3264x2448</item>
+        <item>3968x2976</item>
+        <item>4736x3552</item>
+        <item>6528x4896</item>
+        <item>6928x5196</item>
+    </string-array>
+    <array name="test_array_ratio_capture_icon">
+        <item>@drawable/ratio_capture_2560_1920</item>
+        <item>@drawable/ratio_capture_3264x2448</item>
+        <item>@drawable/ratio_capture_3968x2976</item>
+        <item>@drawable/ratio_capture_4736x3552</item>
+        <item>@drawable/ratio_capture_6528x4896</item>
+        <item>@drawable/ratio_capture_6928_5196</item>
+    </array>
+</resources>
